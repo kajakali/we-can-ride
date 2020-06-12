@@ -26,7 +26,7 @@ module.exports = sendRegistraionLink = ( emailInfo) => {
         to: `${toAddress}`,
         subject: `Become a volunteer`,
         html: `<p>You have been sent a link to register as a volunteer with We Can Ride. To register
-                <a href="http://localhost:3000/#/register/${token}">Click Here</a></p><br />
+                <a href="https://we-can-ride-volunteer-schedule.herokuapp.com/#/register/${token}">Click Here</a></p><br />
                 <p>If you have any questions regarding this email please contact We Can Ride.<br />
                 Email: volunteers@wecanride.org<br />
                 Phone: 952-934-0057</p>`
