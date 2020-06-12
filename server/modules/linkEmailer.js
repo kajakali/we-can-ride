@@ -28,7 +28,7 @@ module.exports = sendEmailLink = ( emailInfo) => {
         subject: `You got a message`,
         html: `<p>Hi ${recipient}, You are receiving this email because a request was made to reset your volunteer
                 account password with We Can Ride. To reset your password click the link below.</p> <br />
-                <a href="http://localhost:3000/#/reset/${id}/${token}">RESET PASSWORD</a><br />
+                <a href="https://we-can-ride-volunteer-schedule.herokuapp.com//#/reset/${id}/${token}">RESET PASSWORD</a><br />
                 <p>If you still have trouble with your account pleaser contact the volunteer coordinator.<br />
                 Email: volunteers@wecanride.org<br />
                 Phone: 952-934-0057</p>`
