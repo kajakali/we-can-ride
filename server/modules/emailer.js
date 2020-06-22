@@ -22,14 +22,14 @@ module.exports = sendEmail = ( emailInfo) => {
         If you are having trouble finding a replacement please contact We Can Ride:<br />
         Email: volunteers@wecanride.org<br />
         Phone: 952-934-0057 <br /><br />
-        <a href="http://localhost:3000/#/">We Can Ride</a><br /><br />
+        <a href="http://we-can-ride-volunteerscheduler.herokuapp.com/#/">We Can Ride</a><br /><br />
         This is an automated email. Please do not reply to this email here.</p>`
     }
     else {
         // else, this is an original message / request to cover a shift
         body = `<p>Hi ${recipient}! <br />You got a request to trade a We Can Ride volunteer shift:<br /><br />"${message}"
         <br /><br />To reply to this message or take the shift please log into your volunteer account.<br />
-        <a href="http://localhost:3000/#/">We Can Ride</a><br /><br />
+        <a href="http://we-can-ride-volunteerscheduler.herokuapp.com/#/">We Can Ride</a><br /><br />
         This is an automated email. Please do not reply to this email here.</p>`
     }
 
